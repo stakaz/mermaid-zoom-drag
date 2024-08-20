@@ -38,7 +38,7 @@ class MermaidZoomDragPlugin extends Plugin {
   }
 
   addMermaidContainers() {
-    const mermaidElements = document.querySelectorAll('.mermaid');
+    const mermaidElements = document.querySelectorAll('.mehrmaid');
     mermaidElements.forEach((el) => {
       if (!el.parentElement.classList.contains('mermaid-container')) {
         const container = document.createElement('div');
